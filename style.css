@@ -435,6 +435,31 @@ footer{
         gap:15px;
         padding: 10px;
     }
+    
+    .hero{
+        animation: change 60s alternate linear infinite;
+    }
+    @keyframes change {
+    0%{
+        background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1600');
+    }
+    25%{
+        background-image: url(./hot1.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./hot2.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./hot3.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./hot4.jpg);
+        background-size: cover;
+    }
+}
 
     .logo img{
         height: 120px;
